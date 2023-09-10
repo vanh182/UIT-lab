@@ -1,20 +1,22 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Mh_Layout from './components/Mh_Layout';
+import Mh_Maytinh from './components/Mh_Maytinh';
+import Login from './components/Login';
+import KqHocTap from './components/KqHocTap';
+import DoiNam from './components/DoiNam';
+import Flatlist from './components/Flatlist';
+import SectionList from './components/SectionList';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+//<Mh_Layout></Mh_Layout>
+//<Mh_Maytinh></Mh_Maytinh>
+//<Login></Login>
+//<KqHocTap></KqHocTap>
+//<DoiNam></DoiNam>s
+//<Flatlist></Flatlist>
+//<SectionList></SectionList>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
